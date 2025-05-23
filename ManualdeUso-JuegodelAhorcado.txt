@@ -1,0 +1,47 @@
+Manual de Uso - Juego del Ahorcado
+Descripción
+Este es un juego clásico del ahorcado donde debes adivinar una palabra secreta letra por letra. 
+Tienes un número limitado de intentos para equivocarte antes de perder.
+
+Cómo jugar
+Inicio:
+Al ejecutar el programa, el juego selecciona aleatoriamente una palabra de una lista predefinida.
+
+Mostrar palabra oculta:
+La palabra aparece con guiones (-) en lugar de las letras aún no adivinadas.
+
+Ingresar letras:
+Debes ingresar una sola letra en cada intento para tratar de descubrir la palabra.
+
+Control de errores:
+
+Si la letra está en la palabra, todas las posiciones de esa letra se revelan.
+
+Si la letra no está, pierdes un intento.
+
+Letras usadas:
+El juego muestra las letras que ya has dicho para evitar repetirlas.
+
+Intentos:
+Tienes 6 intentos para equivocarte. En cada error se dibuja progresivamente una figura del ahorcado.
+
+Final del juego:
+
+Ganas si logras descubrir todas las letras antes de agotar tus intentos.
+
+Pierdes si cometes 7 errores (6 intentos fallidos más el intento final), mostrando la palabra correcta.
+
+Volver a jugar:
+Al terminar, el juego te pregunta si quieres jugar otra vez.
+
+Requisitos
+Python 3 instalado.
+
+Ejecutar el script desde la consola o un entorno de desarrollo.
+
+Comandos de entrada
+Ingresa una letra (a-z) cuando se te solicite.
+
+Responde s para jugar de nuevo o cualquier otra letra para salir.
+
+
